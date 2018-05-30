@@ -1,7 +1,7 @@
 Origin: Halium
 Suite: lts
 Codename: bionic
-Date: Wed, 30 May 2018 20:10:26 UTC
+Date: Wed, 30 May 2018 20:29:37 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
@@ -18,8 +18,8 @@ MD5Sum:
  bc3e2f5e171d4a79f3dfeefbd23867a0 8782 main/binary-i386/Packages
  dfc87ba96d334ac53a8532a333d01ad4 2515 main/binary-i386/Packages.gz
  54a5fecbdab298c8a6016da521561c01 128 main/binary-i386/Release
- 01b2bd9b74ed080dffe219a79b0db80d 17461 main/source/Sources
- 23b0e2fd6eaec6fd904e6693c4c3142c 5331 main/source/Sources.gz
+ 6c01f3151a7ef406244051596f4d699b 20500 main/source/Sources
+ 1f748c4f7a2a80214111b1d90ec44e59 6312 main/source/Sources.gz
  3986f43cef65b97483afe8f3490dc4ce 130 main/source/Release
 SHA1:
  c672cbde1390d8ba52857664b0c67d9945a8ac30 73215 main/binary-armhf/Packages
@@ -34,8 +34,8 @@ SHA1:
  167a3a40dfacb8e4dda021180181ba05645e0598 8782 main/binary-i386/Packages
  0ca70197bde87af63fb83de3e46ffb7e84a56022 2515 main/binary-i386/Packages.gz
  fced49974dbd5208582da28bc755d8a124824e57 128 main/binary-i386/Release
- 9e01b4a79f047e3a46e3e424a21caf752a95ed26 17461 main/source/Sources
- 0986983d767bffb3629f730fcc491d367605fa61 5331 main/source/Sources.gz
+ ef4c2d8e54b53595509a442f08d9b6f3201cd46e 20500 main/source/Sources
+ 8933dc95367bdc4889bf119b898e470fd8043d8d 6312 main/source/Sources.gz
  16e965896f2f1d55d9a0737aa1cb8851c99dc7f4 130 main/source/Release
 SHA256:
  a97d0149983dea5dcc3445412c1654832a5425ef3c159cfb74d2ad6582192af6 73215 main/binary-armhf/Packages
@@ -50,6 +50,6 @@ SHA256:
  7bec2ee76a42a6b0ce33488f2e7e7fac21051c31ac42533a16d7590de31eae4b 8782 main/binary-i386/Packages
  833d019dbebf646de633673af0f1b1ca7fee95e317636c99edbef9584ff42542 2515 main/binary-i386/Packages.gz
  cb9abe3f34e3a381e9e8f9d291af651f44a3ff055ec503bb76930c25e3677a2b 128 main/binary-i386/Release
- f99d6fa0cd48bc976eb0b73eb2a8ff52d5a8558f8a9ee860023714a0e51fe5fc 17461 main/source/Sources
- 008b8ba537029305325bff543fc2f491ec545e991adf4d9ab2e546d49ff4b41c 5331 main/source/Sources.gz
+ 0580e13c78dbf4992814662a9253718f96dd8eb5cf1878cd43ea9a89c63178de 20500 main/source/Sources
+ f19dee8a49ccc632d11a4c746059e9dbcf129e77e1e60c7f37a7f833dec5fc7f 6312 main/source/Sources.gz
  837bf897924affdbbd39ff5d9b24144a629d33acc0b636af28953fda9e8095d1 130 main/source/Release
