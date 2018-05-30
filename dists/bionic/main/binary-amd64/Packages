@@ -1,3 +1,19 @@
+Package: hybris-usb
+Version: 0.2.1
+Architecture: all
+Maintainer: JBBgameich <jbb.mail@gmx.de>
+Installed-Size: 26
+Depends: isc-dhcp-server, net-tools
+Homepage: https://github.com/mickybart/gnulinux_support
+Priority: optional
+Section: net
+Filename: pool/main/h/hybris-usb/hybris-usb_0.2.1_all.deb
+Size: 3256
+SHA256: 9c5573ed187134703f7b5cdf9bae83f55832a75636706aa72820b5a703929599
+SHA1: d432c87fa97b5c5a539606a1ebf3580b377d4b37
+MD5sum: ebf9e7b426dbc3eac91574289ecdd790
+Description: USB control for Android with hybris
+
 Package: kwin-data
 Source: kwin
 Version: 4:5.12.5-1.1
