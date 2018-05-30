@@ -1,3 +1,19 @@
+Package: debian-pm-archive-keyring
+Source: debian-pm-keyring
+Version: 20180408
+Architecture: all
+Maintainer: Jonah Brüchert <jbb@kaidan.im>
+Installed-Size: 54
+Recommends: gpgv
+Priority: optional
+Section: misc
+Filename: pool/main/d/debian-pm-keyring/debian-pm-archive-keyring_20180408_all.deb
+Size: 21228
+SHA256: 0e893bb95415a77c2e398ab59f74ec543d71a4e6ce7d39bc48df04077a45aa0c
+SHA1: 96482248ce1aae6ee2aca5e704ed92af4fcb9bfe
+MD5sum: 2c37d041c73a41f99e7b8ddf69c5c05e
+Description: GnuPG keys of the debian-pm test archive
+
 Package: hybris-usb
 Version: 0.2.1
 Architecture: all
