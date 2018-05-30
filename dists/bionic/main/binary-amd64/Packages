@@ -1,0 +1,117 @@
+Package: kwin-data
+Source: kwin
+Version: 4:5.12.5-1.1
+Architecture: all
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12596
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Breaks: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg (<< 4:4.14.0-2), kde-l10n-bs (<< 4:4.14.0-2), kde-l10n-ca (<< 4:4.14.0-2), kde-l10n-cavalencia (<< 4:4.14.0-2), kde-l10n-cs (<< 4:4.14.0-2), kde-l10n-da (<< 4:4.14.0-2), kde-l10n-de (<< 4:4.14.0-2), kde-l10n-el (<< 4:4.14.0-2), kde-l10n-engb (<< 4:4.14.0-2), kde-l10n-eo (<< 4:4.14.0-2), kde-l10n-es (<< 4:4.14.0-2), kde-l10n-et (<< 4:4.14.0-2), kde-l10n-eu (<< 4:4.14.0-2), kde-l10n-fa (<< 4:4.14.0-2), kde-l10n-fi (<< 4:4.14.0-2), kde-l10n-fr (<< 4:4.14.0-2), kde-l10n-ga (<< 4:4.14.0-2), kde-l10n-gl (<< 4:4.14.0-2), kde-l10n-he (<< 4:4.14.0-2), kde-l10n-hi (<< 4:4.14.0-2), kde-l10n-hr (<< 4:4.14.0-2), kde-l10n-hu (<< 4:4.14.0-2), kde-l10n-ia (<< 4:4.14.0-2), kde-l10n-id (<< 4:4.14.0-2), kde-l10n-is (<< 4:4.14.0-2), kde-l10n-it (<< 4:4.14.0-2), kde-l10n-ja (<< 4:4.14.0-2), kde-l10n-kk (<< 4:4.14.0-2), kde-l10n-km (<< 4:4.14.0-2), kde-l10n-ko (<< 4:4.14.0-2), kde-l10n-lt (<< 4:4.14.0-2), kde-l10n-lv (<< 4:4.14.0-2), kde-l10n-mr (<< 4:4.14.0-2), kde-l10n-nb (<< 4:4.14.0-2), kde-l10n-nds (<< 4:4.14.0-2), kde-l10n-nl (<< 4:4.14.0-2), kde-l10n-nn (<< 4:4.14.0-2), kde-l10n-pa (<< 4:4.14.0-2), kde-l10n-pl (<< 4:4.14.0-2), kde-l10n-pt (<< 4:4.14.0-2), kde-l10n-ptbr (<< 4:4.14.0-2), kde-l10n-ro (<< 4:4.14.0-2), kde-l10n-ru (<< 4:4.14.0-2), kde-l10n-sk (<< 4:4.14.0-2), kde-l10n-sl (<< 4:4.14.0-2), kde-l10n-sr (<< 4:4.14.0-2), kde-l10n-sv (<< 4:4.14.0-2), kde-l10n-tr (<< 4:4.14.0-2), kde-l10n-ug (<< 4:4.14.0-2), kde-l10n-uk (<< 4:4.14.0-2), kde-l10n-wa (<< 4:4.14.0-2), kde-l10n-zhcn (<< 4:4.14.0-2), kde-l10n-zhtw (<< 4:4.14.0-2)
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Priority: optional
+Section: kde
+Filename: pool/main/k/kwin/kwin-data_5.12.5-1.1_all.deb
+Size: 4002872
+SHA256: 00f6ef7afc6361bd5fd040ed853af4c2fad40bff011b35266dce96e04ea148d5
+SHA1: 689043aa3c550c2bd65e474b60f6bd0a588261a9
+MD5sum: 13ca376965ff63614d1a5ebbe4d5cf4f
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
+Package: lxc-android
+Version: 0.1+git20180520-1
+Architecture: all
+Maintainer: Bhushan Shah <bshah@kde.org>
+Installed-Size: 434
+Homepage: https://github.com/Halium/lxc-android
+Priority: optional
+Section: libs
+Filename: pool/main/l/lxc-android/lxc-android_0.1+git20180520-1_all.deb
+Size: 14724
+SHA256: 5fff06b393fcfbdf27b2e58ad3cdae8645e88131c921ba4c2146e569222bad99
+SHA1: 616f6bc7f6c3fc97624bd26bf1aec7233ca7fd8e
+MD5sum: 3352672468ad689d3ce4488f0da75225
+Description: lxc configuration for starting android
+ .
+ This package provides the configuration for starting android in lxc
+
+Package: ofono-dev
+Source: ofono
+Version: 1.21-2
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 174
+Depends: libc6-dev | libc-dev
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-dev_1.21-2_all.deb
+Size: 30544
+SHA256: 320becc757bc422aadcef229f4e9a2529e018dd2d50c40df56eadc3aad8dfe42
+SHA1: 2736e1543df96fecff26067299dab994defa3911
+MD5sum: 43fde6e39da7b31d775892dd6251bd6e
+Description: Mobile telephony stack (development files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes the header files for building oFono plugins.
+
+Package: ofono-scripts
+Source: ofono
+Version: 1.21-2
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 176
+Depends: ofono (>= 1.21-2), python3, python3-dbus, python3-gi
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-scripts_1.21-2_all.deb
+Size: 24388
+SHA256: 1c5f6ccd931f499439e80d65444a58e3f450eaf5a0589864c19c28443831e860
+SHA1: cb01b5e737e4f7426936431578875bb96b3e717e
+MD5sum: 6c670fd8a3ca060f2d49cdbb260d6ec5
+Description: Mobile telephony stack (test and maintenance script files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes test and maintenance scripts.
+
+Package: pulseaudio-dev
+Source: pulseaudio
+Version: 11.1-5
+Architecture: all
+Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
+Installed-Size: 573
+Depends: pulseaudio (= 11.1-5)
+Multi-Arch: foreign
+Homepage: http://www.pulseaudio.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/pulseaudio/pulseaudio-dev_11.1-5_all.deb
+Size: 109336
+SHA256: 64f1ad6541a2d3e234ebfe1f40793648f66c37593a2c4f8dd08cea6db9a9a821
+SHA1: 1eb2d6dcf523c6afad64fbf01b6ff6e841ce5116
+MD5sum: 606e87061e4f322b905b798f181b44bb
+Description: Pulsecore development headers
+

@@ -1,0 +1,5 @@
+Archive: lts
+Component: main
+Origin: Halium
+Architecture: arm64
+Description: Plasma Mobile, Halium and mainline support packages
