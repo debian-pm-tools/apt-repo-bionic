@@ -30,9 +30,35 @@ SHA1: d432c87fa97b5c5a539606a1ebf3580b377d4b37
 MD5sum: ebf9e7b426dbc3eac91574289ecdd790
 Description: USB control for Android with hybris
 
+Package: kaidan-data
+Source: kaidan
+Version: 0.3.2+git20180529-1
+Architecture: all
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 101
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180529-1_all.deb
+Size: 46072
+SHA256: 51b99217fc7440bf1273338344159729dc42801f504475fb11ddda16550a2734
+SHA1: 3d7eb0b698b0ad241481d03bac0cccd1a3f1e372
+MD5sum: bb88bb9283dd0a5efe95ec2421fc552a
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+ .
+ This package contains architecture independant files.
+
 Package: kwin-data
 Source: kwin
-Version: 4:5.12.5-1.1
+Version: 4:5.12.5-1
 Architecture: all
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 12596
@@ -42,11 +68,11 @@ Replaces: kde-l10n-ar (<< 4:4.14.0-2), kde-l10n-ast (<< 4:4.14.0-2), kde-l10n-bg
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Priority: optional
 Section: kde
-Filename: pool/main/k/kwin/kwin-data_5.12.5-1.1_all.deb
-Size: 4002872
-SHA256: 00f6ef7afc6361bd5fd040ed853af4c2fad40bff011b35266dce96e04ea148d5
-SHA1: 689043aa3c550c2bd65e474b60f6bd0a588261a9
-MD5sum: 13ca376965ff63614d1a5ebbe4d5cf4f
+Filename: pool/main/k/kwin/kwin-data_5.12.5-1_all.deb
+Size: 4002968
+SHA256: b1bab11ae01e598e4f2aaa14ed55f9dfdbb9bd9869e164dc8b9b41ac32019d86
+SHA1: e42d1f729d052e0cccc63553b5f172abbf979f2a
+MD5sum: 3eb7696dea5602ff06a6664809fab01c
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -57,6 +83,30 @@ Description: KDE window manager data files
  of windows and switching between them.
  .
  This package contains the data files
+
+Package: libgloox-doc
+Source: gloox
+Version: 1.0.20-1
+Architecture: all
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 20213
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-1_all.deb
+Size: 1829448
+SHA256: 7983d9aa42f7f71804ec7d93b3848098e1928a664aefd04a45074a916f2af6b3
+SHA1: 4a028b19af537124e144ccf2453814366ff524ec
+MD5sum: dea08bbf39a05a0541883c5145c0c688
+Description: C++ jabber/xmpp library (API documentation)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains API documentation for this library.
 
 Package: lxc-android
 Version: 0.1+git20180520-1
