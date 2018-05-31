@@ -56,6 +56,23 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
  .
  This package contains architecture independant files.
 
+Package: kpeople-vcard
+Source: kpeoplevcard
+Version: 0.0+git20170117-1
+Architecture: i386
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 53
+Depends: libc6 (>= 2.4), libkf5contacts5 (>= 15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.9.0~beta), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20170117-1_i386.deb
+Size: 15704
+SHA256: 577fe6805e6b306a192120276dcd4a0019afc2a2e50c93051090fb4a3c185fe4
+SHA1: 6453854c1e9cd8079eb257bd36f0cce5b83d0410
+MD5sum: f3ae607a19a0af052c96053be410090c
+Description: kpeople plugin for vcard
+ This plugin lets kpeople read the vcard format.
+
 Package: kwin-data
 Source: kwin
 Version: 4:5.12.5-1

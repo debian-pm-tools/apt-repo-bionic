@@ -98,6 +98,23 @@ Description: KDE Image Gallery
  A KDE Image Gallery.
 Original-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 
+Package: kpeople-vcard
+Source: kpeoplevcard
+Version: 0.0+git20180520-1
+Architecture: armhf
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 41
+Depends: libc6 (>= 2.4), libkf5contacts5 (>= 4:15.07.90), libkf5coreaddons5 (>= 4.99.0), libkf5peoplebackend5, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Priority: optional
+Section: kde
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+git20180520-1_armhf.deb
+Size: 12304
+SHA256: b9cb7a491d2ab83a012c55730d67776425fac4f907e8b4dd07fdf540ba15fd9b
+SHA1: 00e62e1ace08143b9008c7120b24424c16d3f0e7
+MD5sum: 99b507efd9d368c43293fcb7f7e50df4
+Description: kpeople plugin for vcard
+ This plugin lets kpeople read the vcard format.
+
 Package: kwin-common
 Source: kwin
 Version: 4:5.12.5-1
