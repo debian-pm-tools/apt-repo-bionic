@@ -4,13 +4,13 @@ Hash: SHA512
 Origin: Halium
 Suite: lts
 Codename: bionic
-Date: Wed, 30 May 2018 20:29:37 UTC
+Date: Thu, 31 May 2018 12:00:07 UTC
 Architectures: armhf arm64 amd64 i386
 Components: main
 Description: Plasma Mobile, Halium and mainline support packages
 MD5Sum:
- 92ba527706c54021fc3368cd22c6f8ce 73215 main/binary-armhf/Packages
- 904458d1168aeff37ff4f59d366b3e33 15623 main/binary-armhf/Packages.gz
+ b184e44d8c0163e47186167e558ef095 79281 main/binary-armhf/Packages
+ bbad8a88d0c2a4bf3d703e753d7b35d5 17237 main/binary-armhf/Packages.gz
  fcaafeff84f1d7f18244962611e7417a 129 main/binary-armhf/Release
  bc3e2f5e171d4a79f3dfeefbd23867a0 8782 main/binary-arm64/Packages
  dfc87ba96d334ac53a8532a333d01ad4 2515 main/binary-arm64/Packages.gz
@@ -25,8 +25,8 @@ MD5Sum:
  1f748c4f7a2a80214111b1d90ec44e59 6312 main/source/Sources.gz
  3986f43cef65b97483afe8f3490dc4ce 130 main/source/Release
 SHA1:
- c672cbde1390d8ba52857664b0c67d9945a8ac30 73215 main/binary-armhf/Packages
- dde06147d1b926434dc0488f766b783908c12059 15623 main/binary-armhf/Packages.gz
+ f0d36c549064c4b82a71c8986066149680804da3 79281 main/binary-armhf/Packages
+ d2ae0e2ec0ee54a41ad8dea2154e0b83a653adf6 17237 main/binary-armhf/Packages.gz
  54e6c3221b677431acec49c34c0e2417d0c0dff6 129 main/binary-armhf/Release
  167a3a40dfacb8e4dda021180181ba05645e0598 8782 main/binary-arm64/Packages
  0ca70197bde87af63fb83de3e46ffb7e84a56022 2515 main/binary-arm64/Packages.gz
@@ -41,8 +41,8 @@ SHA1:
  8933dc95367bdc4889bf119b898e470fd8043d8d 6312 main/source/Sources.gz
  16e965896f2f1d55d9a0737aa1cb8851c99dc7f4 130 main/source/Release
 SHA256:
- a97d0149983dea5dcc3445412c1654832a5425ef3c159cfb74d2ad6582192af6 73215 main/binary-armhf/Packages
- e07dbb83609a1475f28dc5d93c9388741079f7e673cbbda903bd3a6fe980ab79 15623 main/binary-armhf/Packages.gz
+ 5e60cba10b7b28235c0e921d261bf3c9313acb8ddb4784c47b19fdaecb1385c1 79281 main/binary-armhf/Packages
+ ac4ea67819ccbb01a7538d19461e1f05571060e9a04106ccf0d63d1871af0a76 17237 main/binary-armhf/Packages.gz
  399007eb5b228ec3c9736b5f4b7d01ed77f3eb2ffdafdcc7a7c2eee5fcae81c4 129 main/binary-armhf/Release
  7bec2ee76a42a6b0ce33488f2e7e7fac21051c31ac42533a16d7590de31eae4b 8782 main/binary-arm64/Packages
  833d019dbebf646de633673af0f1b1ca7fee95e317636c99edbef9584ff42542 2515 main/binary-arm64/Packages.gz
@@ -58,17 +58,17 @@ SHA256:
  837bf897924affdbbd39ff5d9b24144a629d33acc0b636af28953fda9e8095d1 130 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlsPCbEACgkQqB4HWr7I
-Cn4jQw/7B0CzXe5VoNX0i/r+0olWBW2/84fmN4AalxRVpg515sEgxs/Q0eUjbaWL
-FEoYStqMytqu4gy1utlQY8m293ZrAbRS/zApYmzOpGKLR+ullrwd8VHg+Y2ijkvV
-AMg2DcajtMiSzD2u68B1WmQQCMJ4h7fE+LRa+dAJ/Ve+XFYytAHaLGyqzJQ6Ei7L
-0e6k71Q6ebvCQlzgrDeWLdRfZrrguQWGOiueqPWS8DK/pMXI8ndAc9RclBnhoMaC
-60QS3Blk7HtAMz16ttFX2d0Jq43vYKuQb8ApuJq/vFWmoeFJh9ClTO3t6ltuoj+Q
-fZGCsnJ20GNwsfsI62m0W0LdBXvw89j2S/qU+JEMH4AKV+By1eU7X52lwmB40An7
-W9lKEzvT8Gl2ke0rLpFM9gqr5eUQOgjtZFDfoxF/kyMvQOCjbmt0vXbcVsubeNum
-86nRn8eDUdKiLSRqbgBFLK0QiiUTKR5dlNULQWPUUzcimlmpGIEGzn1OvJyo10fW
-3Oe7C9Gdr4jVjirhcwDhkmGErnP2BRTaECKbI0XmKmTSEa2loAjq1XIJ6VaZcaym
-GQM7k4KpbdiMEO5ZVw+44IM34i2UDrb18mIymWfRMubWRpbjxQiaoz9mzx9znfb4
-wgHpiaDEeRcC/x2L4AKYeoHjidC3VRDQW1qsfMFysHnsZBxGiOE=
-=Jj02
+iQIzBAEBCgAdFiEEw9fK+/RCNT+V9p9KqB4HWr7ICn4FAlsP49sACgkQqB4HWr7I
+Cn6bmBAAgWuayjDS3CPCiqPR0OwvUaDN/obe31caF5zOMzNRwV2XcESIZ+kNug/M
+wljXJ1aDZCadITB2Iph2VNQCs7/VAQPOoUiEaduvzg5RBbgbZBBlI+/dk31iXkpq
+EaGXBQnhlcdQTGvT/icpjEnt7w6rL2KyMDQp8RpbDpBKC7QXMdp/a2YAI9X+mw3Y
+pUKmeZFd56qKVUroYoVhLPF6VRCWah3Ke9Oy3+Sv8AGR3RlIrCj5yf1CPmaAxB57
+Xp61Eu686TviPhkBL2zmvfPguNRz1dlk8FucJQNovmAIN3OCDVvDVaGG0KM5ZEMF
++Iuzav0QbN57DCCi7teC2/nvykfb50NzzTyJFfAbpNsyxhpdXBipchjmM6CLQ0vg
+5tZmcIJ9/zBLs1OnjI4wtENGo9eps6jpdL/C78M1d6p8FM4aDCbjPp86GdG1szlc
+m+aJCRJuYliUqr/GEGy/255BxmTOC1TgfJa/GYfXDFpp8WydhyTOxCPQ0g2zCq8m
+u/Ulgzv8pCKv9K4DmZX5FB10jNGnQALnhLs7AD00qfWplyeu4zyw3fi26YyWkCd/
+WFNwoCczBB1EQgLVSt37bnF8RKaFFOjZaAgTDs5jlFyMM2Xxml6kip6OSxXSxPGe
+PLt9OLe+ZzCtQKDq5Bdl+hYjac25AEss+QgXXtwFGujVTpSkBVs=
+=3WEE
 -----END PGP SIGNATURE-----

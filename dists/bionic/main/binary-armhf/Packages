@@ -30,6 +30,57 @@ SHA1: d432c87fa97b5c5a539606a1ebf3580b377d4b37
 MD5sum: ebf9e7b426dbc3eac91574289ecdd790
 Description: USB control for Android with hybris
 
+Package: kaidan
+Version: 0.3.2+git20180529-1
+Architecture: armhf
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 297
+Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libgloox17, libqt5core5a (>= 5.10.0+dfsg), libqt5gui5 (>= 5.10.0+dfsg), libqt5qml5 (>= 5.10.0), libqt5sql5 (>= 5.10.0+dfsg), libqt5widgets5 (>= 5.10.0+dfsg), libstdc++6 (>= 5.2)
+Recommends: libnotify-bin
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180529-1_armhf.deb
+Size: 86632
+SHA256: 8a3a69c7ae06943632cc8768558860259358051bc692faccb8b00ca7cb79e498
+SHA1: b2e8212b9e56eba3054915ab262e65b932e370a0
+MD5sum: d409d24af4f3f853eba1105c8c1c272f
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+
+Package: kaidan-data
+Source: kaidan
+Version: 0.3.2+git20180529-1
+Architecture: all
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 101
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180529-1_all.deb
+Size: 46072
+SHA256: 51b99217fc7440bf1273338344159729dc42801f504475fb11ddda16550a2734
+SHA1: 3d7eb0b698b0ad241481d03bac0cccd1a3f1e372
+MD5sum: bb88bb9283dd0a5efe95ec2421fc552a
+Description: A simple, user-friendly Jabber/XMPP client for every device
+ It has a modern user-interface made using Kirigami and QtQuick. The back-end
+ is completely written in C++ using the XMPP client libraray gloox and Qt 5.
+ .
+ One of the main ideas behind it is to run the same application on all
+ platforms, including mobile and desktop systems. So it even runs on Android.
+ .
+ Currently there are still many features not implemented, so don't expect it
+ to work as a finished client will do.
+ .
+ This package contains architecture independant files.
+
 Package: koko
 Version: 0.0+git20180504-1
 Architecture: armhf
@@ -391,6 +442,107 @@ Description: Library to provide access to get, set and list Android properties
  Contains a library that provides access to get, set and list Android
  properties, which can be used by any Ubuntu app that needs to probe
  for properties (gps, modem, device specifics).
+
+Package: libgloox-dbg
+Source: gloox
+Version: 1.0.20-1
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 4624
+Depends: libgloox-dev (= 1.0.20-1)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: debug
+Filename: pool/main/g/gloox/libgloox-dbg_1.0.20-1_armhf.deb
+Size: 4433256
+SHA256: 259261c00bd5cc8fbd4d0594b1d7c093e10c0d0079a9795d7128424f8ac3dd09
+SHA1: 09328051bc0bcc419914a614cd6466d19bdd891e
+MD5sum: 8cba94665293cf5b42d281d190c8517c
+Description: C++ jabber/xmpp library (debug symbols)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains symbols for debugging programs using this library.
+Build-Ids: 3e34742dd044ee1eae7ae16fa45cf42e69aa6800
+
+Package: libgloox-dev
+Source: gloox
+Version: 1.0.20-1
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 3057
+Depends: libgloox17 (= 1.0.20-1), libgnutls28-dev, libidn11-dev
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gloox/libgloox-dev_1.0.20-1_armhf.deb
+Size: 542568
+SHA256: 5651859894692ee3099045c0adcd9dc8ac591c411a03030344b2f6c0d7a92f5f
+SHA1: 920626c028c980f233bc51555a7d7b76d4a1abd3
+MD5sum: 8aa052332a1fe787e481d41ba563f65f
+Description: C++ jabber/xmpp library (devel)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains files needed for development with this library.
+
+Package: libgloox-doc
+Source: gloox
+Version: 1.0.20-1
+Architecture: all
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 20213
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-1_all.deb
+Size: 1829448
+SHA256: 7983d9aa42f7f71804ec7d93b3848098e1928a664aefd04a45074a916f2af6b3
+SHA1: 4a028b19af537124e144ccf2453814366ff524ec
+MD5sum: dea08bbf39a05a0541883c5145c0c688
+Description: C++ jabber/xmpp library (API documentation)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains API documentation for this library.
+
+Package: libgloox17
+Source: gloox
+Version: 1.0.20-1
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 786
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgnutls30 (>= 3.5.6), libidn11 (>= 1.13), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gloox/libgloox17_1.0.20-1_armhf.deb
+Size: 320424
+SHA256: d9726efa717d02ce5993d9b2bbd7642468405e87985e988d984ac9b36facef1b
+SHA1: 13a74699032eeb25489b2470981b3dc977f6a7bc
+MD5sum: 4e82152712f4c0b8c5ff74fdc5e19c45
+Description: C++ jabber/xmpp library
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
 
 Package: libhardware-dev
 Source: libhybris
@@ -1006,20 +1158,19 @@ Description: Mobile telephony stack (test and maintenance script files)
  This package includes test and maintenance scripts.
 
 Package: plasma-phone-components
-Version: 0.7+git20180430-1
+Version: 0.7+git20180223-2
 Architecture: armhf
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 3759
-Depends: breeze-icon-theme, milou, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-activities, qml-module-org-kde-people, qml-module-qtquick-localstorage, fonts-oxygen, kpeople-vcard, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5configcore5, libkf5coreaddons5, libkf5dbusaddons5, libkf5declarative5, libkf5i18n5, libkf5kiowidgets5, libkf5notifications5, libkf5package5, libkf5people5, libkf5peoplebackend5, libkf5plasma5, libkf5service5, libkf5waylandclient5, libqt5core5a (>= 5.10.0+dfsg), libqt5dbus5 (>= 5.10.0+dfsg), libqt5gui5 (>= 5.10.0+dfsg), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.10.0), libqt5widgets5 (>= 5.10.0+dfsg), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.0.9.5)
-Recommends: qml-module-ofono
+Installed-Size: 3738
+Depends: breeze-icon-theme, milou, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kirigami2, qml-module-org-kde-kquickcontrols, qml-module-org-kde-activities, qml-module-org-kde-people, qml-module-qtquick-localstorage, fonts-oxygen, kpeople-vcard, kio, kpackagetool5, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.2.0), libkf5dbusaddons5 (>= 4.99.0), libkf5declarative5 (>= 5.7.0+git20150305.0804+15.04), libkf5i18n5 (>= 4.97.0), libkf5kiowidgets5 (>= 4.96.0), libkf5notifications5 (>= 5.3.0+git20141030.0311), libkf5package5 (>= 5.5.0+git), libkf5people5, libkf5peoplebackend5, libkf5plasma5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.97.0), libkf5waylandclient5 (>= 4:5.5.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0 (>= 0.0.9.5)
 Homepage: https://plasma-mobile.org
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180430-1_armhf.deb
-Size: 1742760
-SHA256: c8227d0a782387910ed03979a321227d9a55d548c842367289ad07247df27251
-SHA1: d30d4f485195892694fef6c07d710e8dbd42f9f1
-MD5sum: 9514a627ce2ab96481c6bebea8f00a46
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+git20180223-2_armhf.deb
+Size: 1741904
+SHA256: 40677743d2ff1aaee95b20bc0cc12a555c9e4930392af1ba8ae2149f755121ad
+SHA1: 8fc69c4225a0f68b0a817b0c40594f3cbe46973d
+MD5sum: 788d2e5e0b02e06cca85cd2ec6e38ec0
 Description: Plasma Phone Components
  Phone components for KDE Plasma.
 Original-Maintainer: Boudewijn Rempt <boud@valdyas.org>
